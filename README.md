@@ -13,7 +13,7 @@ The project still in progress...
 The main goal is learning and practice, especially:
 
 - Building a numerology calculator service with complex business logic
-- Saving calculated data to a relational database (PostgreSQL/SQLite)
+- Saving calculated data to a relational database (PostgreSQL)
 - Using SQLAlchemy as the ORM layer with Alembic for migrations
 - Creating a RESTful API with FastAPI
 - Validating request and response schemas with Pydantic
@@ -57,7 +57,7 @@ Request and response validation ensures:
 - **Python 3.12+** - Core language
 - **FastAPI** - Web framework for building the REST API
 - **SQLAlchemy 2.0** - ORM for database operations
-- **PostgreSQL/SQLite** - Relational database
+- **PostgreSQL** - Relational database
 - **Alembic** - Database migration tool
 - **Pydantic** - Data validation and schema definition
 - **Uvicorn** - ASGI server for running the application
@@ -67,7 +67,6 @@ Request and response validation ensures:
 
 ### Prerequisites
 - Python 3.12 or higher
-- PostgreSQL (or SQLite for local development)
 
 ### Installation
 
